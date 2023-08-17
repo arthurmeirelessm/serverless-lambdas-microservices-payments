@@ -138,6 +138,10 @@
               "target": "Package",
               "version": "[3.7.200.19, )"
             },
+            "AWSSDK.SQS": {
+              "target": "Package",
+              "version": "[3.7.200.19, )"
+            },
             "Amazon.Lambda.AspNetCoreServer": {
               "target": "Package",
               "version": "[8.1.0, )"

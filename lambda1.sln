@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cadastrador", "Cadastrador\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cadastrador.Tests", "Cadastrador.Tests\Cadastrador.Tests.csproj", "{393E8475-2A25-4F7B-BEE0-4D50CC19FA5F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQS.Consumidor", "SQS.Consumidor\SQS.Consumidor.csproj", "{8B69C518-B4B7-4CAC-9734-E8E0BDB84249}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQS.Fornecedor", "SQS.Fornecedor\SQS.Fornecedor.csproj", "{EDD32CDA-FCF4-4197-815C-FAA357C8E8CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{393E8475-2A25-4F7B-BEE0-4D50CC19FA5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{393E8475-2A25-4F7B-BEE0-4D50CC19FA5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{393E8475-2A25-4F7B-BEE0-4D50CC19FA5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B69C518-B4B7-4CAC-9734-E8E0BDB84249}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B69C518-B4B7-4CAC-9734-E8E0BDB84249}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B69C518-B4B7-4CAC-9734-E8E0BDB84249}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B69C518-B4B7-4CAC-9734-E8E0BDB84249}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDD32CDA-FCF4-4197-815C-FAA357C8E8CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDD32CDA-FCF4-4197-815C-FAA357C8E8CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDD32CDA-FCF4-4197-815C-FAA357C8E8CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDD32CDA-FCF4-4197-815C-FAA357C8E8CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

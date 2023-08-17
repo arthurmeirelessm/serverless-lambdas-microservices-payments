@@ -14,5 +14,6 @@
   <ItemGroup>
     <PackageReference Include="Amazon.Lambda.AspNetCoreServer" Version="8.1.0" />
     <PackageReference Include="AWSSDK.DynamoDBv2" Version="3.7.200.19" />
+    <PackageReference Include="AWSSDK.SQS" Version="3.7.200.19" />
   </ItemGroup>
 </Project>

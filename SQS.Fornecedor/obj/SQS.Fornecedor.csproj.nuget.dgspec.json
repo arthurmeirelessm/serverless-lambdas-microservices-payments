@@ -1,33 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\novo-microservice-with-dotnet-and-aws\\lambda1\\Cadastrador\\Cadastrador.csproj": {}
+    "C:\\novo-microservice-with-dotnet-and-aws\\lambda1\\SQS.Fornecedor\\SQS.Fornecedor.csproj": {}
   },
   "projects": {
-    "C:\\novo-microservice-with-dotnet-and-aws\\lambda1\\Cadastrador\\Cadastrador.csproj": {
+    "C:\\novo-microservice-with-dotnet-and-aws\\lambda1\\SQS.Fornecedor\\SQS.Fornecedor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\novo-microservice-with-dotnet-and-aws\\lambda1\\Cadastrador\\Cadastrador.csproj",
-        "projectName": "Cadastrador",
-        "projectPath": "C:\\novo-microservice-with-dotnet-and-aws\\lambda1\\Cadastrador\\Cadastrador.csproj",
+        "projectUniqueName": "C:\\novo-microservice-with-dotnet-and-aws\\lambda1\\SQS.Fornecedor\\SQS.Fornecedor.csproj",
+        "projectName": "SQS.Fornecedor",
+        "projectPath": "C:\\novo-microservice-with-dotnet-and-aws\\lambda1\\SQS.Fornecedor\\SQS.Fornecedor.csproj",
         "packagesPath": "C:\\Users\\arthur.mendes\\.nuget\\packages\\",
-        "outputPath": "C:\\novo-microservice-with-dotnet-and-aws\\lambda1\\Cadastrador\\obj\\",
+        "outputPath": "C:\\novo-microservice-with-dotnet-and-aws\\lambda1\\SQS.Fornecedor\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\arthur.mendes\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -38,20 +37,16 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
-            "AWSSDK.DynamoDBv2": {
-              "target": "Package",
-              "version": "[3.7.200.19, )"
-            },
             "AWSSDK.SQS": {
               "target": "Package",
               "version": "[3.7.200.19, )"
             },
-            "Amazon.Lambda.AspNetCoreServer": {
+            "DotNetEnv": {
               "target": "Package",
-              "version": "[8.1.0, )"
+              "version": "[2.5.0, )"
             }
           },
           "imports": [
@@ -65,16 +60,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Crossgen2.win-x64",
-              "version": "[6.0.16, 6.0.16]"
-            }
-          ],
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

@@ -128,6 +128,22 @@
           }
         }
       },
+      "AWSSDK.SQS/3.7.200.19": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.7.200.18, 4.0.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.SQS.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.SQS.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/2.1.0": {
         "type": "package",
         "dependencies": {
@@ -427,6 +443,35 @@
         "tools/uninstall.ps1"
       ]
     },
+    "AWSSDK.SQS/3.7.200.19": {
+      "sha512": "hr2ghMtzEJZm8biOe27lwTmwj8agmT7SX90bVkys8x2UhVNd42hS46ezR8pT+ztkEQWPoy0i4osPRSzN/Ga/Rw==",
+      "type": "package",
+      "path": "awssdk.sqs/3.7.200.19",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/AWSSDK.SQS.CodeAnalysis.dll",
+        "analyzers/dotnet/cs/SharedAnalysisCode.dll",
+        "awssdk.sqs.3.7.200.19.nupkg.sha512",
+        "awssdk.sqs.nuspec",
+        "images/AWSLogo.png",
+        "lib/net35/AWSSDK.SQS.dll",
+        "lib/net35/AWSSDK.SQS.pdb",
+        "lib/net35/AWSSDK.SQS.xml",
+        "lib/net45/AWSSDK.SQS.dll",
+        "lib/net45/AWSSDK.SQS.pdb",
+        "lib/net45/AWSSDK.SQS.xml",
+        "lib/netcoreapp3.1/AWSSDK.SQS.dll",
+        "lib/netcoreapp3.1/AWSSDK.SQS.pdb",
+        "lib/netcoreapp3.1/AWSSDK.SQS.xml",
+        "lib/netstandard2.0/AWSSDK.SQS.dll",
+        "lib/netstandard2.0/AWSSDK.SQS.pdb",
+        "lib/netstandard2.0/AWSSDK.SQS.xml",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
     "Microsoft.Extensions.Configuration/2.1.0": {
       "sha512": "SS8ce1GYQTkZoOq5bskqQ+m7xiXQjnKRiGfVNZkkX2SX0HpXNRsKnSUaywRRuCje3v2KT9xeacsM3J9/G2exsQ==",
       "type": "package",
@@ -601,6 +646,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "AWSSDK.DynamoDBv2 >= 3.7.200.19",
+      "AWSSDK.SQS >= 3.7.200.19",
       "Amazon.Lambda.AspNetCoreServer >= 8.1.0"
     ]
   },
@@ -645,6 +691,10 @@
         "targetAlias": "net6.0",
         "dependencies": {
           "AWSSDK.DynamoDBv2": {
+            "target": "Package",
+            "version": "[3.7.200.19, )"
+          },
+          "AWSSDK.SQS": {
             "target": "Package",
             "version": "[3.7.200.19, )"
           },

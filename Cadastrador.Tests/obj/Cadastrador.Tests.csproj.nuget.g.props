@@ -21,6 +21,7 @@
     <Pkgxunit_analyzers Condition=" '$(Pkgxunit_analyzers)' == '' ">C:\Users\arthur.mendes\.nuget\packages\xunit.analyzers\1.0.0</Pkgxunit_analyzers>
     <PkgNewtonsoft_Json Condition=" '$(PkgNewtonsoft_Json)' == '' ">C:\Users\arthur.mendes\.nuget\packages\newtonsoft.json\9.0.1</PkgNewtonsoft_Json>
     <PkgAWSSDK_Core Condition=" '$(PkgAWSSDK_Core)' == '' ">C:\Users\arthur.mendes\.nuget\packages\awssdk.core\3.7.200.18</PkgAWSSDK_Core>
+    <PkgAWSSDK_SQS Condition=" '$(PkgAWSSDK_SQS)' == '' ">C:\Users\arthur.mendes\.nuget\packages\awssdk.sqs\3.7.200.19</PkgAWSSDK_SQS>
     <PkgAWSSDK_DynamoDBv2 Condition=" '$(PkgAWSSDK_DynamoDBv2)' == '' ">C:\Users\arthur.mendes\.nuget\packages\awssdk.dynamodbv2\3.7.200.19</PkgAWSSDK_DynamoDBv2>
   </PropertyGroup>
 </Project>

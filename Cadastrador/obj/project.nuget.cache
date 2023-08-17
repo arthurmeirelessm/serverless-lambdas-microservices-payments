@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "lDF4si0nhoapE0YCkfxfKltq6aqTH/7R3yDJIU7Ef7e78DJ1CZ4duvQS0VpoeWl2CYhWOdR+DXcEGebAiQy42Q==",
+  "dgSpecHash": "FaDKHwtD8jaYU9BVRCuXhFMJ/ZgsW9afdVs+D/Gh1FB+RLmQxaEtqcD1bayDWsSoJSsx+BiSfwJQ+oztwsAvPA==",
   "success": true,
   "projectFilePath": "C:\\novo-microservice-with-dotnet-and-aws\\lambda1\\Cadastrador\\Cadastrador.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "C:\\Users\\arthur.mendes\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\2.3.1\\amazon.lambda.serialization.systemtextjson.2.3.1.nupkg.sha512",
     "C:\\Users\\arthur.mendes\\.nuget\\packages\\awssdk.core\\3.7.200.18\\awssdk.core.3.7.200.18.nupkg.sha512",
     "C:\\Users\\arthur.mendes\\.nuget\\packages\\awssdk.dynamodbv2\\3.7.200.19\\awssdk.dynamodbv2.3.7.200.19.nupkg.sha512",
+    "C:\\Users\\arthur.mendes\\.nuget\\packages\\awssdk.sqs\\3.7.200.19\\awssdk.sqs.3.7.200.19.nupkg.sha512",
     "C:\\Users\\arthur.mendes\\.nuget\\packages\\microsoft.extensions.configuration\\2.1.0\\microsoft.extensions.configuration.2.1.0.nupkg.sha512",
     "C:\\Users\\arthur.mendes\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\2.1.0\\microsoft.extensions.configuration.abstractions.2.1.0.nupkg.sha512",
     "C:\\Users\\arthur.mendes\\.nuget\\packages\\microsoft.extensions.configuration.binder\\2.1.0\\microsoft.extensions.configuration.binder.2.1.0.nupkg.sha512",
