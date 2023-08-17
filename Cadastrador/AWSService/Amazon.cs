@@ -9,6 +9,11 @@ namespace Cadastrador.AWSService
     {
         public static async Task SaveInDynamoAsync(this Pedido pedido)
         {
+            //logic to insert user according to the body of the file "\ResponseExamples\ResponseRequest"
+            pedido.id = Guid.NewGuid().ToString();
+
+            pedido.DataDeCriacao = DateTime.Now;
+
             var client = new AmazonDynamoDBClient(RegionEndpoint.USWest2);
 
             var context = new DynamoDBContext(client);

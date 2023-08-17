@@ -35,3 +35,4 @@ C:\novo-microservice-with-dotnet-and-aws\lambda1\Cadastrador\obj\Debug\net6.0\re
 C:\novo-microservice-with-dotnet-and-aws\lambda1\Cadastrador\obj\Debug\net6.0\Cadastrador.pdb
 C:\novo-microservice-with-dotnet-and-aws\lambda1\Cadastrador\obj\Debug\net6.0\Cadastrador.genruntimeconfig.cache
 C:\novo-microservice-with-dotnet-and-aws\lambda1\Cadastrador\obj\Debug\net6.0\ref\Cadastrador.dll
+C:\novo-microservice-with-dotnet-and-aws\lambda1\Cadastrador\bin\Debug\net6.0\AWSSDK.SQS.dll

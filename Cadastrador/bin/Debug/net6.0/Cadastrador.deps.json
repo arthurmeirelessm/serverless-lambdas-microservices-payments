@@ -9,6 +9,7 @@
       "Cadastrador/1.0.0": {
         "dependencies": {
           "AWSSDK.DynamoDBv2": "3.7.200.19",
+          "AWSSDK.SQS": "3.7.200.19",
           "Amazon.Lambda.AspNetCoreServer": "8.1.0"
         },
         "runtime": {
@@ -93,6 +94,17 @@
         },
         "runtime": {
           "lib/netcoreapp3.1/AWSSDK.DynamoDBv2.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.200.19"
+          }
+        }
+      },
+      "AWSSDK.SQS/3.7.200.19": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.200.18"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.SQS.dll": {
             "assemblyVersion": "3.3.0.0",
             "fileVersion": "3.7.200.19"
           }
@@ -200,6 +212,13 @@
       "sha512": "sha512-I7ZMPBGV8ryal6Jdq9SA7kreg1iTDq8v1CK9HsqfCiBhEg7KYf0NnpBM8FiaxjbhTmPQ3o5EUmzfnSZgWqcFUA==",
       "path": "awssdk.dynamodbv2/3.7.200.19",
       "hashPath": "awssdk.dynamodbv2.3.7.200.19.nupkg.sha512"
+    },
+    "AWSSDK.SQS/3.7.200.19": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hr2ghMtzEJZm8biOe27lwTmwj8agmT7SX90bVkys8x2UhVNd42hS46ezR8pT+ztkEQWPoy0i4osPRSzN/Ga/Rw==",
+      "path": "awssdk.sqs/3.7.200.19",
+      "hashPath": "awssdk.sqs.3.7.200.19.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration/2.1.0": {
       "type": "package",
