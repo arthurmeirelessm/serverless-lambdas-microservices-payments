@@ -2,4 +2,5 @@
 
 Arquitetura 
 
-![image](https://github.com/arthurmeirelessm/serverless-lambdas-microservices-payments/assets/78212769/d24977e5-776f-470f-849d-d780474a6d28)
+![image](https://github.com/arthurmeirelessm/serverless-lambdas-microservices-payments/assets/78212769/3aa928d4-d446-444f-befe-94ff33e70cc0)
+
