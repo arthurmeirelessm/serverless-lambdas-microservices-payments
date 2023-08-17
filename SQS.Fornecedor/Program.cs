@@ -12,6 +12,7 @@ internal class Program
     {
         DotNetEnv.Env.Load();
 
+        // Connect to AWS SNS console using AWS SDK
         var client = new AmazonSQSClient(RegionEndpoint.USWest2);
 
         var request = new SendMessageRequest

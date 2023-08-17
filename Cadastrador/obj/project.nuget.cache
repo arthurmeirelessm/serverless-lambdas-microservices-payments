@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "FaDKHwtD8jaYU9BVRCuXhFMJ/ZgsW9afdVs+D/Gh1FB+RLmQxaEtqcD1bayDWsSoJSsx+BiSfwJQ+oztwsAvPA==",
+  "dgSpecHash": "TzlypY9tIergwtEpz01n9nqrfb7D10q/t2g0JRzLGwea68inpw6XMfEn3Y6SPBeWKHnrmHnULjMiWBLb8ijv7Q==",
   "success": true,
   "projectFilePath": "C:\\novo-microservice-with-dotnet-and-aws\\lambda1\\Cadastrador\\Cadastrador.csproj",
   "expectedPackageFiles": [
@@ -23,7 +23,10 @@
     "C:\\Users\\arthur.mendes\\.nuget\\packages\\microsoft.extensions.primitives\\2.1.0\\microsoft.extensions.primitives.2.1.0.nupkg.sha512",
     "C:\\Users\\arthur.mendes\\.nuget\\packages\\system.memory\\4.5.0\\system.memory.4.5.0.nupkg.sha512",
     "C:\\Users\\arthur.mendes\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.0\\system.runtime.compilerservices.unsafe.4.5.0.nupkg.sha512",
-    "C:\\Users\\arthur.mendes\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\6.0.16\\microsoft.netcore.app.crossgen2.win-x64.6.0.16.nupkg.sha512"
+    "C:\\Users\\arthur.mendes\\.nuget\\packages\\microsoft.netcore.app.runtime.linux-x64\\6.0.16\\microsoft.netcore.app.runtime.linux-x64.6.0.16.nupkg.sha512",
+    "C:\\Users\\arthur.mendes\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.linux-x64\\6.0.16\\microsoft.aspnetcore.app.runtime.linux-x64.6.0.16.nupkg.sha512",
+    "C:\\Users\\arthur.mendes\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\6.0.16\\microsoft.netcore.app.crossgen2.win-x64.6.0.16.nupkg.sha512",
+    "C:\\Users\\arthur.mendes\\.nuget\\packages\\microsoft.netcore.app.host.linux-x64\\6.0.16\\microsoft.netcore.app.host.linux-x64.6.0.16.nupkg.sha512"
   ],
   "logs": []
 }
